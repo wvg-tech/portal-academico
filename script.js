@@ -45,6 +45,7 @@ async function cargarCSV(url) {
 
 function mostrarCursos() {
     document.body.innerHTML = `
+    agregarFooter();
         <div class="container">
             <div class="card-datos">
                 <h1>Confirmar datos</h1>
@@ -230,4 +231,13 @@ function volver() {
     } else {
         location.reload();
     }
+}
+function agregarFooter() {
+    document.body.innerHTML += `
+        <footer>
+            © 2026 KFG Tech Portal | Computación y Robótica
+            <br>
+            Desarrollado por WVG-Tech
+        </footer>
+    `;
 }
