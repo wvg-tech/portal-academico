@@ -156,3 +156,8 @@ footer{
     color: #666;
     border-top: 1px solid #ddd;
 }
+.logo{
+    width: 120px;
+    display: block;
+    margin: 20px auto 10px auto;
+}
