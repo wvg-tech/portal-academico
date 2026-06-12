@@ -161,3 +161,55 @@ footer{
     display: block;
     margin: 20px auto 10px auto;
 }
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .logo {
+        width: 130px;
+        margin: 25px auto 15px auto;
+    }
+
+    h1 {
+        font-size: 42px;
+        line-height: 1.1;
+        margin-bottom: 15px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    form {
+        width: 100%;
+        max-width: none;
+        padding: 25px 20px;
+        margin: 25px auto;
+        box-sizing: border-box;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    input {
+        font-size: 18px;
+        padding: 13px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+        line-height: 1.4;
+        padding: 15px 10px;
+        margin-top: 25px;
+    }
+}
