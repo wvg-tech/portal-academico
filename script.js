@@ -49,9 +49,20 @@ function mostrarCursos() {
             <div class="card-datos">
                 <h1>Confirmar datos</h1>
 
-                <p><strong>Alumno:</strong> ${alumnoActual.Nombre}</p>
-                <p><strong>Nivel:</strong> ${alumnoActual.NIVEL}</p>
-                <p><strong>Grado y Sección:</strong> ${alumnoActual.GRADO}° - ${alumnoActual.SECCIÓN}</p>
+                <div class="dato-alumno">
+                <span>👤 Alumno</span>
+                <strong>${alumnoActual.Nombre}</strong>
+                </div>
+
+                <div class="dato-alumno">
+                <span>🏫 Nivel</span>
+                <strong>${alumnoActual.NIVEL}</strong>
+                </div>
+
+<div class="dato-alumno">
+    <span>📘 Grado y Sección</span>
+    <strong>${alumnoActual.GRADO}° - ${alumnoActual.SECCIÓN}</strong>
+</div>    
 
                 <button onclick="continuar()">Continuar</button>
             </div>
