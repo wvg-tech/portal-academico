@@ -241,21 +241,20 @@ footer{
     }
     .cards {
     gap: 20px;
-}
+    }
 
-.card {
+    .card {
     width: 85%;
-    height: 180px;
-    padding: 20px;
-}
-
+    height: 140px;
+    padding: 15px;
+    }
 .card .icono {
-    font-size: 55px;
+    font-size: 45px;
 }
 
 .card h2 {
-    font-size: 22px;
-}
+    font-size: 18px;
+    margin-top: 10px;
 }
 .colegio{
     text-align: center;
