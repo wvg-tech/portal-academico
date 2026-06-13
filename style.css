@@ -19,13 +19,13 @@ h2 {
 }
 
 form {
-    max-width: 550px;
+    max-width: 420px;
     margin: 30px auto;
     padding: 25px;
     border: 1px solid #ddd;
-    border-radius: 12px;
+    border-radius: 18px;
     background: white;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 input {
@@ -36,12 +36,13 @@ input {
 }
 
 button {
-   background-color: #f27c22;
+    background-color: #f27c22;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 12px;
     font-size: 16px;
+    font-weight: 600;
 }
 button:hover {
     background-color: #d96512;
