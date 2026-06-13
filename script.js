@@ -45,7 +45,6 @@ async function cargarCSV(url) {
 
 function mostrarCursos() {
     document.body.innerHTML = `
-    agregarFooter();
         <div class="container">
             <div class="card-datos">
                 <h1>Confirmar datos</h1>
