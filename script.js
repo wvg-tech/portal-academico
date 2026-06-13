@@ -57,6 +57,8 @@ function mostrarCursos() {
             </div>
         </div>
     `;
+
+      agregarFooter();
 }
 
 function continuar() {
