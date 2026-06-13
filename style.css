@@ -17,9 +17,8 @@ h1 {
 h2 {
     margin-top: 30px;
 }
-
 form {
-    max-width: 420px;
+    max-width: 550px;
     margin: 30px auto;
     padding: 25px;
     border: 1px solid #ddd;
@@ -172,9 +171,9 @@ footer{
     border-top: 1px solid #ddd;
 }
 .logo{
-    width: 120px;
+    width: 130px;
     display: block;
-    margin: 20px auto 10px auto;
+    margin: 20px auto 15px auto;
 }
 @media (max-width: 600px) {
 
