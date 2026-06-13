@@ -55,23 +55,35 @@ form button {
     text-align: center;
     margin-bottom: 20px;
 }
-
 .card-datos {
-    max-width: 450px;
+    max-width: 520px;
     margin: 40px auto;
-    padding: 25px;
-    border: 1px solid #ddd;
-    border-radius: 12px;
+    padding: 35px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    border: none;
+}
+
+.card-datos h1 {
+    font-size: 42px;
+    margin-bottom: 25px;
 }
 
 .card-datos p {
-    font-size: 18px;
+    font-size: 19px;
+    background: #f8fafc;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin: 12px 0;
 }
 
 .card-datos button {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 25px;
+    font-size: 18px;
 }
+
 .cards {
     display: flex;
     flex-direction: row;
@@ -162,6 +174,19 @@ footer{
     margin: 20px auto 10px auto;
 }
 @media (max-width: 600px) {
+
+    .card-datos {
+    padding: 25px 20px;
+    margin: 30px auto;
+}
+
+.card-datos h1 {
+    font-size: 34px;
+}
+
+.card-datos p {
+    font-size: 17px;
+}
 
     body {
         padding: 15px;
